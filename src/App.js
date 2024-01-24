@@ -1,24 +1,47 @@
-import logo from './logo.svg';
+import Navba from './components/Navba.jsx'
+import Home from './components/Home.jsx';
+import Footer from './components/Footer.jsx';
+import About from './components/About.jsx'
+import Contect from './components/Contect.jsx';
+import LoginSignup from './components/LoginSignup/LoginSignup.jsx'
+
 import './App.css';
 
 function App() {
+  let component
+  switch (window.location.pathname)
+  {
+    case "/":
+      component =<> 
+      <Navba/>
+      <Home />
+      <Footer/></>;
+      break
+    case "/About":
+      component =<> 
+      <Navba/>
+      <About />
+      <Footer/></>;
+      break
+    case "/Contect":
+      component =<> 
+      <Navba/>
+      <Contect />
+      <Footer/></>;
+      break
+    case "/login":
+      component = <LoginSignup />;
+      break
+      default:
+
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      {component}
+  
     </div>
+    
   );
 }
 
