@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.752a3fd9.css",
+    "main.js": "/static/js/main.b61b1a7a.js",
+    "static/js/787.1383a7d5.chunk.js": "/static/js/787.1383a7d5.chunk.js",
+    "static/media/vecteezy_youtube-logo-png-youtube-icon-transparent_18930747.png": "/static/media/vecteezy_youtube-logo-png-youtube-icon-transparent_18930747.f8302c6843f3be516ae2.png",
+    "static/media/Instagram_icon.png": "/static/media/Instagram_icon.1d6d0317700c4f0c95b7.png",
+    "static/media/teli.png": "/static/media/teli.2c1a583592ec73938493.png",
+    "static/media/pngwing.com (1).png": "/static/media/pngwing.com (1).c90c37ad36541bafa8f7.png",
+    "static/media/email.png": "/static/media/email.67bda94140af311d041f.png",
+    "static/media/2.jpeg": "/static/media/2.2b1fee764be1d0d5617f.jpeg",
+    "static/media/1.jpeg": "/static/media/1.d98e84525536396b72bf.jpeg",
+    "index.html": "/index.html",
+    "main.752a3fd9.css.map": "/static/css/main.752a3fd9.css.map",
+    "main.b61b1a7a.js.map": "/static/js/main.b61b1a7a.js.map",
+    "787.1383a7d5.chunk.js.map": "/static/js/787.1383a7d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.752a3fd9.css",
+    "static/js/main.b61b1a7a.js"
+  ]
+}
